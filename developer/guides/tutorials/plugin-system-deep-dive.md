@@ -1218,28 +1218,6 @@ class PricePluginIntegrationTest extends TestCase
 }
 ```
 
-## Related Resources
-
-### Official Documentation
-
-- [Magento DevDocs: Plugins (Interceptors)](https://developer.adobe.com/commerce/php/development/components/plugins/)
-- [Magento DevDocs: Dependency Injection](https://developer.adobe.com/commerce/php/development/components/dependency-injection/)
-- [Magento DevDocs: Service Contracts](https://developer.adobe.com/commerce/php/development/components/service-contracts/)
-
-### Community Resources
-
-- [Magento Stack Exchange: Plugin Questions](https://magento.stackexchange.com/questions/tagged/plugin)
-- [Alan Storm: Magento 2 Plugin System](https://alanstorm.com/magento_2_object_manager_plugin_system/)
-- [Mage2.tv: Understanding Plugins](https://www.mage2.tv/)
-
-### Further Learning
-
-- [Design Patterns: Decorator Pattern](https://refactoring.guru/design-patterns/decorator)
-- [Design Patterns: Chain of Responsibility](https://refactoring.guru/design-patterns/chain-of-responsibility)
-- [Magento Coding Standards (PHPCS)](https://github.com/magento/magento-coding-standard)
-
----
-
 ## Assumptions
 
 - Target: Adobe Commerce / Magento Open Source 2.4.7
@@ -1325,7 +1303,7 @@ Alternatives considered:
 ### Upgrade Path
 
 - Magento 2.4.6 → 2.4.7: Plugins remain compatible if targeting service contracts
-- Magento 2.4.7 → 2.5: Verify plugin methods still exist; check deprecation notices
+- Magento 2.4.7 → 2.4.8/2.4.9: Verify plugin methods still exist; check deprecation notices
 
 ### Migration Notes
 

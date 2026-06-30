@@ -293,7 +293,7 @@ public function execute(string $sku): void
 }
 ```
 
-**Why:** The `@api` interface guarantees the method signature won't change. Your code will survive Magento upgrades from 2.4.7 → 2.4.8 → 2.5.0.
+**Why:** The `@api` interface guarantees the method signature won't change. Your code will survive Magento upgrades from 2.4.7 → 2.4.8 → 2.4.9.
 
 #### 2. Exposing Business Logic as Web APIs
 ```xml
@@ -719,7 +719,7 @@ echo $product->getData('manufacturer_country');
 Magento follows **Semantic Versioning** for BC guarantees:
 
 - **MAJOR** (2.x → 3.x): BC breaks allowed
-- **MINOR** (2.4.x → 2.5.x): No BC breaks in `@api`, new features added
+- **MINOR** (2.4.7 → 2.4.9): No BC breaks in `@api`, new features added
 - **PATCH** (2.4.7 → 2.4.8): No BC breaks, bug fixes only
 
 ### What's Protected by @api
@@ -830,7 +830,7 @@ interface ExampleRepositoryInterface
     public function save(ExampleInterface $entity);
 
     /**
-     * @since 2.5.0
+     * @since 2.4.8
      */
     public function saveV2(ExampleInterface $entity, array $options = []);
 }

@@ -1436,28 +1436,6 @@ public function apply(): void
 }
 ```
 
-## Related Resources
-
-### Official Documentation
-
-- [Magento DevDocs: Declarative Schema](https://developer.adobe.com/commerce/php/development/components/declarative-schema/)
-- [Magento DevDocs: Data and Schema Patches](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)
-- [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/)
-
-### Community Resources
-
-- [Magento Stack Exchange: Declarative Schema](https://magento.stackexchange.com/questions/tagged/declarative-schema)
-- [Alan Storm: Magento 2 Declarative Schema](https://alanstorm.com/magento-2-3-declarative-schema/)
-- [SwiftOtter: Declarative Schema Deep Dive](https://swiftotter.com/)
-
-### Further Learning
-
-- [Database Indexing Strategies](https://use-the-index-luke.com/)
-- [MySQL Performance Tuning](https://www.percona.com/blog/)
-- [Schema Design Best Practices](https://dev.mysql.com/doc/refman/8.0/en/optimization.html)
-
----
-
 ## Assumptions
 
 - Target: Adobe Commerce / Magento Open Source 2.4.7
@@ -1553,7 +1531,7 @@ Alternatives considered:
 ### Upgrade Path
 
 - Magento 2.4.6 → 2.4.7: Declarative schema fully supported
-- Magento 2.4.7 → 2.5: Continue using declarative schema
+- Magento 2.4.7 → 2.4.8/2.4.9: Continue using declarative schema
 - MySQL 5.7 → 8.0: Test schema changes (syntax differences minimal)
 
 ### Migration Notes

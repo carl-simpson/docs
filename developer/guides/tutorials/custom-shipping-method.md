@@ -1609,7 +1609,7 @@ class CustomCarrierTest extends TestCase
 
 **Upgrade path:**
 - Magento 2.4.7 → 2.4.8: No breaking changes
-- Magento 2.4.x → 2.5.0: Monitor deprecation notices in shipping interfaces
+- Magento 2.4.x → 2.4.9: Monitor deprecation notices in shipping interfaces
 
 ## Tests to Add
 

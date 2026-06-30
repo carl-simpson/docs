@@ -1229,7 +1229,7 @@ exit(0);
 
 **Upgrade path:**
 - Magento 2.4.7 → 2.4.8: No breaking changes expected
-- Magento 2.4.x → 2.5.0: Monitor deprecation notices
+- Magento 2.4.x → 2.4.9: Monitor deprecation notices
 
 ## Tests to Add
 

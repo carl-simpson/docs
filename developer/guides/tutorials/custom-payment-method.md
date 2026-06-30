@@ -1961,7 +1961,7 @@ Never cache payment credentials or transaction data. Do cache:
 
 **Upgrade path:**
 - Magento 2.4.7 → 2.4.8: No breaking changes expected
-- Magento 2.4.x → 2.5.0: Monitor deprecation notices in gateway interfaces
+- Magento 2.4.x → 2.4.9: Monitor deprecation notices in gateway interfaces
 
 **Migration considerations:**
 - Moving from legacy payment method to gateway architecture requires refactoring

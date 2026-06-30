@@ -1280,7 +1280,7 @@ public function testSaveWithoutFormKey()
 
 - **API Changes:** None; all interfaces internal to module
 - **Database Schema:** No migrations required for security controls
-- **Upgrade Path:** Compatible with Magento 2.4.0 → 2.4.8; techniques forward-compatible with 2.5.0 (no deprecated APIs)
+- **Upgrade Path:** Compatible with Magento 2.4.0 → 2.4.8; techniques forward-compatible with 2.4.9 (no deprecated APIs)
 
 ---
 

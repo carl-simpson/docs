@@ -1058,7 +1058,7 @@ WHERE job_code = 'indexer_update_all_views'
 
 **Upgrade path:**
 - Magento 2.4.7 → 2.4.8: Full reindex recommended after upgrade
-- Magento 2.4.x → 2.5.0: Monitor for Mview framework changes
+- Magento 2.4.x → 2.4.9: Monitor for Mview framework changes
 
 ## Tests to Add
 

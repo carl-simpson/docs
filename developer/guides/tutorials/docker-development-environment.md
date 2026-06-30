@@ -1034,30 +1034,6 @@ docker-compose build --no-cache
 docker-compose up -d
 ```
 
-## Related Resources
-
-### Official Documentation
-
-- [Magento 2.4.7 Installation Guide](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/overview.html)
-- [Magento System Requirements](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)
-- [Docker Official Documentation](https://docs.docker.com/)
-- [Xdebug 3 Documentation](https://xdebug.org/docs/)
-
-### Community Resources
-
-- [Magento DevDocs](https://developer.adobe.com/commerce/docs/)
-- [Magento Stack Exchange](https://magento.stackexchange.com/)
-- [Docker Hub - PHP Images](https://hub.docker.com/_/php)
-- [markshust/docker-magento](https://github.com/markshust/docker-magento) - Popular alternative setup
-
-### Further Learning
-
-- [Magento 2 Performance Best Practices](https://experienceleague.adobe.com/docs/commerce-operations/performance-best-practices/overview.html)
-- [Redis Configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cache/redis/redis-session.html)
-- [Elasticsearch Configuration](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/search/overview-search.html)
-
----
-
 ## Assumptions
 
 - Target: Adobe Commerce / Magento Open Source 2.4.7
